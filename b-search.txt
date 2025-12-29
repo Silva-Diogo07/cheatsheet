@@ -1,0 +1,22 @@
+binarySearch(int arr[], n, t)
+{
+    low = initial position
+    high = last position (n - 1)
+
+    While low <= high:
+        mid = low + (high - low) / 2
+
+        if arr[mid] == t
+            // Number found at mid
+        
+        else if arr[mid] < t
+            low = mid + 1
+        
+        else
+            high = mid - 1
+    
+    return -1 // not found
+}
+
+n = size of array
+t = number to be found
